@@ -41,15 +41,7 @@ venv.bak/
 data/
 uploads/
 
-# Model weights
-*.pt
-*.pth
-*.h5
-models/*.pt
-models/*.pth
-yolov5s.pt
-best.pt
-last.pt
+
 
 # Generated outputs
 output*.jpg
