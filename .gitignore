@@ -1,0 +1,63 @@
+# General Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.env
+.venv/
+venv/
+ENV/
+env/
+venv.bak/
+
+# IDE Settings
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project Specific
+# Datasets and large validation files
+data/
+uploads/
+
+# Model weights
+*.pt
+*.pth
+*.h5
+models/*.pt
+models/*.pth
+yolov5s.pt
+best.pt
+last.pt
+
+# Generated outputs
+output*.jpg
+runs/
+*.log
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# External repositories
+yolov5/
